@@ -1,0 +1,2 @@
+# NEC
+GECH_E=CELL
