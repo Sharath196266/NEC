@@ -1,7 +1,7 @@
 {
   "name": "gech-ecell-portfolio",
   "version": "1.0.0",
-  "homepage": "https://Adi0326.github.io/NEC",
+  "homepage": "https://nec.compassgech.space",
   "private": true,
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
