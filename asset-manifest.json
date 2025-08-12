@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NEC/static/css/main.e2f14389.css",
+    "main.js": "/NEC/static/js/main.68aa28a0.js",
+    "index.html": "/NEC/index.html",
+    "main.e2f14389.css.map": "/NEC/static/css/main.e2f14389.css.map",
+    "main.68aa28a0.js.map": "/NEC/static/js/main.68aa28a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2f14389.css",
+    "static/js/main.68aa28a0.js"
+  ]
+}
