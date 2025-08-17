@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2f14389.css",
-    "main.js": "/static/js/main.68aa28a0.js",
+    "main.css": "/static/css/main.ebc4ff61.css",
+    "main.js": "/static/js/main.7b599a8c.js",
+    "static/media/shn77.jpg": "/static/media/shn77.3e0ad2cc9c2a6f314d48.jpg",
+    "static/media/sinchana.jpg": "/static/media/sinchana.b03a9e338cff2b06f50e.jpg",
+    "static/media/rakshi.jpg": "/static/media/rakshi.8a5b6544f2a6431cc2d4.jpg",
+    "static/media/jahnavi.jpg": "/static/media/jahnavi.a3a93096314e42fead51.jpg",
+    "static/media/reshma.jpg": "/static/media/reshma.d04e92176402060734a9.jpg",
+    "static/media/hemanth.jpg": "/static/media/hemanth.6517f04cc8d58a51812e.jpg",
+    "static/media/chitra.jpg": "/static/media/chitra.398fd8874fb2b0300fb8.jpg",
+    "static/media/poorna.jpg": "/static/media/poorna.25fa4c3108e909810688.jpg",
+    "static/media/prajwal.jpg": "/static/media/prajwal.a636938cf22115c60e76.jpg",
+    "static/media/chai.jpg": "/static/media/chai.6ec45774f3b0235a7007.jpg",
+    "static/media/nisch.jpg": "/static/media/nisch.c154d610d5d3122e1d9b.jpg",
+    "static/media/rakshitha.jpg": "/static/media/rakshitha.8b4491f706ba45b55395.jpg",
+    "static/media/adithya.jpg": "/static/media/adithya.61c4d0e76443d4a74354.jpg",
+    "static/media/xharanu.jpg": "/static/media/xharanu.527bba779cd97e9d3c5a.jpg",
     "index.html": "/index.html",
-    "main.e2f14389.css.map": "/static/css/main.e2f14389.css.map",
-    "main.68aa28a0.js.map": "/static/js/main.68aa28a0.js.map"
+    "main.ebc4ff61.css.map": "/static/css/main.ebc4ff61.css.map",
+    "main.7b599a8c.js.map": "/static/js/main.7b599a8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2f14389.css",
-    "static/js/main.68aa28a0.js"
+    "static/css/main.ebc4ff61.css",
+    "static/js/main.7b599a8c.js"
   ]
 }
