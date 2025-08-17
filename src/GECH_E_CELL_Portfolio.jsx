@@ -23,6 +23,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import TeamSection from './TeamSection';
 
 const GECH_E_CELL_Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -89,7 +90,8 @@ const GECH_E_CELL_Portfolio = () => {
   };
   
 
-  // Team data
+  // Team data moved to TeamSection.jsx component
+  /*
   const teamMembers = [
   // Presidents
   { 
@@ -189,6 +191,7 @@ const GECH_E_CELL_Portfolio = () => {
     description: 'Problem solver ensuring seamless technical operations and tools.' 
   }
 ];
+*/
 
 
   // Events data
@@ -578,11 +581,11 @@ This vision is our long-term dream — to see GECH E-Cell become a hub where bol
   <div className="grid grid-cols-2 gap-3">
     <div className="flex items-center space-x-2">
       <div className="w-6 h-6 bg-black rounded-full"></div>
-      <span className="text-sm">Primary #000000</span>
+      <span className="text-sm"> Primary  #000000</span>
     </div>
     <div className="flex items-center space-x-2">
       <div className="w-6 h-6 bg-white border border-gray-300 rounded-full"></div>
-      <span className="text-sm">Accent #FFFFFF</span>
+      <span className="text-sm"> Accent  #FFFFFF</span>
     </div>
   </div>
 
@@ -594,54 +597,10 @@ This vision is our long-term dream — to see GECH E-Cell become a hub where bol
         </div>
       </section>
 
-      {/* Team Section */}
-      <section id="team" className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-               <span className="text-indigo-600">Team Dynamite </span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meet the passionate leaders driving innovation and entrepreneurship at GECH
-            </p>
-          </motion.div>
-
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={staggerContainer}
-            className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"
-          >
-            {teamMembers.map((member, index) => (
-              <motion.div
-                key={index}
-                variants={staggerItem}
-                whileHover={{ y: -10, scale: 1.02 }}
-                className="bg-white p-6 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300"
-              >
-                <div className="text-center">
-                  <div className="w-24 h-24 bg-gradient-to-br from-indigo-100 to-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    {/* TODO: Replace with actual team photos */}
-                    <span className="text-2xl font-bold text-indigo-600">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </span>
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
-                  <p className="text-indigo-600 font-semibold mb-2">{member.role}</p>
-                  <p className="text-gray-600 text-sm">{member.description}</p>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
+      {/* Team Section - Using New Responsive Component */}
+      <div id="team">
+        <TeamSection />
+      </div>
 
       {/* Events Section */}
       <section id="events" className="py-20 bg-white">
@@ -885,7 +844,7 @@ This vision is our long-term dream — to see GECH E-Cell become a hub where bol
               </div>
             </div>
             <p className="text-gray-400 mb-6">
-              © 2024 Government Engineering College Hassan Entrepreneurship Cell. All rights reserved.
+              © 2025 Government Engineering College Hassan Entrepreneurship Cell. All rights reserved.
             </p>
             <div className="flex justify-center space-x-6">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Instagram</a>
